@@ -19,3 +19,8 @@ function deepestChild() {
   var baby = document.querySelector('main#app div#grand-node div div div div');
   return baby;
 }
+
+/*function deepestChild() {
+  var list = document.querySelectorAll('main#app div#grand-node div');
+  return list[list.length -1];
+} */
